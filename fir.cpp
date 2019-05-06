@@ -30,7 +30,7 @@ void fir(data_t *y, int x , data_t *input) {
 
 
 	acc = 0;
-
+	acc = 0;//试试git修改的
 Shift_Accum_Loop:
 
 	for (i = N - 1; i >= 0; i--) {
